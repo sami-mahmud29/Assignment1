@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* logo Styles */
+.logo {
+    height: 240px;
+    width: 240px;
+}
+
+.btn {
+    background-color: #030303;
+    color: #e2dddd;
+    border: none;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: semi-bold;
+    cursor: pointer;
+    height: 65px;
+    width: 244px;
+    border-radius: 8px;
+}
+
+/* First Section */
+
+header {
+    height: 652px;
+    width: 1520px;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 581px;
+    width: 800px;
+    padding: 26px 354px 45px ;
+}
+
+header .title{
+    font-size: 48px;
+    font-weight: extra bold;
+    color: #030303;
+    text-align: center;
+    height: 99px 136px;
+}
+.description {
+    font-size: 20px;
+    color: #030303;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
